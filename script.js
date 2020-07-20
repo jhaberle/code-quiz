@@ -12,31 +12,31 @@ var availableQuesions = [];
 
 var questions = [
     {
-        "question": "Inside which HTML element do we put the JavaScript??",
-        "choice1": "<script>",
-        "choice2": "<javascript>",
-        "choice3": "<js>",
-        "choice4": "<scripting>",
-        "answer": 1
-    },
-    {
-        "question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
-        "choice1": "<script href='xxx.js'>",
-        "choice2": "<script name='xxx.js'>",
-        "choice3": "<script src='xxx.js'>",
-        "choice4": "<script file='xxx.js'>",
-        "answer": 3
-    },
-    {
-        "question": " How do you write 'Hello World' in an alert box?",
-        "choice1": "msgBox('Hello World');",
-        "choice2": "alertBox('Hello World');",
-        "choice3": "msg('Hello World');",
-        "choice4": "alert('Hello World');",
+        "question": 'Arrays in JavaScript can be used to store _________.',
+        "choice1": 'Numbers and strings',
+        "choice2": 'Other arrays',
+        "choice3": 'Booleans',
+        "choice4": 'All of the Above',
         "answer": 4
     },
     {
-        "question": "Where is the correct place to insert a JavaScript?",
+        "question": 'The condition in an if / else statement is enclosed within __________.',
+        "choice1": 'Strings',
+        "choice2": 'Booleans',
+        "choice3": 'Alerts',
+        "choice4": 'Numbers',
+        "answer": 3
+    },
+    {
+        "question": 'String values must be enclosed within _________ when being assigned to variables.',
+        "choice1": 'Quotes',
+        "choice2": 'Curly Brackets',
+        "choice3": 'Commas',
+        "choice4": 'Parenthesis',
+        "answer": 1
+    },
+    {
+        "question": "Where is the correct place to insert a JavaScript link?",
         "choice1": "The <body> section;",
         "choice2": "Both the <head> section and the <body> section are correct;",
         "choice3": "The <head> section;",
@@ -44,12 +44,12 @@ var questions = [
         "answer": 2
     },
     {
-        "question": "How do you write 'Hello World' in an alert box?",
-        "choice1": "msg('Hello World')",
-        "choice2": "alert('Hello World')",
-        "choice3": "msgBox('Hello World')",
-        "choice4": "alertBox('Hello World')",
-        "answer": 2
+        "question": 'A very useful tool used during development and debugging for printing content to the debugger is:',
+        "choice1": 'JavaScript',
+        "choice2": 'Terminal/Bash',
+        "choice3": 'For loops',
+        "choice4": 'Console Log',
+        "answer": 4
     }
 ];
 
@@ -140,3 +140,5 @@ var timeLeft = 30;
         timeLeft--;
       }
     }
+
+
